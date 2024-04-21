@@ -1,0 +1,160 @@
+---
+layout: compress
+---
+
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: 'en-US' }}">
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="utf-8">
+  <title>{{ site.title }}</title>
+  <meta name="author" content="{{ site.author }}">
+  <meta name="description" content="{{ site.short_author }}'s official website.">
+  <link href="{{ '/assets/css/main.css' | relative_url }}" rel="stylesheet">
+</head>
+
+<body>
+  <main>
+    <article>
+      <h1>{{ page.title }}</h1>
+      <p>
+        I am {{ site.short_author }} (AKA {{ site.aka }}), creator of a tiny little blog,
+        <a href="https://{{ site.aka | slugify }}.github.io/dreamscape/">
+          ☆ dreamscape ☆
+        </a>
+      </p>
+
+      <ul>
+        <li>I'm currently working on (mostly) backend related endeavours</li>
+        <li>Developing for Windows using C# and C++</li>
+        <li>Using Python somewhat frequently</li>
+
+        <li>
+          Frontend wise, lots of experience with XAML, playing with Jetpack Compose &
+          SwiftUI at times, and have done a lot with web technologies (such as Angular,
+          React, bare HTML/CSS/JS, JSX, Vue)
+        </li>
+
+        <li>Most of my other work was done with Java, a minor amount with Lua</li>
+      </ul>
+
+      <h2 id="About">about me</h2>
+      <ul class="two-column-grid">
+        <li>
+          <h3>Name</h3>
+          <p class="tcg-caption">{{ site.author }}</p>
+        </li>
+
+        <li>
+          <h3>Age</h3>
+          <p class="tcg-caption">19</p>
+        </li>
+
+        <li>
+          <h3>Gender</h3>
+          <p class="tcg-caption">Male</p>
+        </li>
+
+        <li>
+          <h3>Pronouns</h3>
+          <p class="tcg-caption">He/Him</p>
+        </li>
+      </ul>
+
+      <h2 id="Projects">projects</h2>
+      <p>
+        These are some of the projects I'm working on. Not necessarily owned
+        by me.
+      </p>
+
+      <ul class="adaptive-tcg">
+        <li>
+          <h3>Charmy</h3>
+          <p class="tcg-description">
+            A simple hot corner app. Based on
+            <a href="https://github.com/taviso/hotcorner">taviso/hotcorner</a>
+          </p>
+
+          <p class="tcg-caption">
+            Platforms: Windows
+
+            <br>
+
+            Source model: Open source -
+            <a href="https://github.com/{{ site.aka }}/Charmy">take a look!</a>
+          </p>
+        </li>
+
+        <li>
+          <h3>SimpleKit</h3>
+          <p class="tcg-description">
+            A set of useful helpers (mostly) written in C++ and C#
+          </p>
+
+          <p class="tcg-caption">
+            Platforms: Windows
+
+            <br>
+
+            Source model: Open source -
+            <a href="https://github.com/{{ site.aka }}/SimpleKit">take a look!</a>
+          </p>
+        </li>
+      </ul>
+
+      <h2 id="Contact">contact me</h2>
+      <p>
+        I'm on one or two social media platforms, but if you need to contact
+        me privately, these are your best bet.
+      </p>
+
+      <ul class="two-column-grid">
+        <li>
+          <h3>Matrix</h3>
+          <a class="tcg-caption" href="https://matrix.to/#/@imordinarycat:matrix.org">
+            matrix.to/#/@imordinarycat:matrix.org
+          </a>
+        </li>
+
+        <li>
+          <h3>Telegram</h3>
+          <a class="tcg-caption" href="https://t.me/{{ site.aka }}">
+            t.me/{{ site.aka }}
+          </a>
+        </li>
+      </ul>
+
+      <h2 id="Social">social media</h2>
+      <p>I'd say following me is a great idea!</p>
+
+      <ul class="two-column-grid">
+        <li>
+          <h3>Bluesky</h3>
+          <a class="tcg-caption" href="https://bsky.app/profile/{{ site.aka | slugify }}.bsky.social">
+            @{{ site.aka | slugify }}.bsky.social
+          </a>
+        </li>
+
+        <li>
+          <h3>Tumblr</h3>
+          <a class="tcg-caption" href="https://www.tumblr.com/{{ site.aka | slugify }}">
+            ☆ dreamscape ☆
+          </a>
+        </li>
+      </ul>
+    </article>
+  </main>
+
+  <footer text-centeralign>
+    <br>
+    <hr>
+    <br>
+
+    <p class="secondary">
+      Backgrounds art on top is from OMORI. Quite pretty, isn't it?
+    </p>
+  </footer>
+</body>
+
+</html>
