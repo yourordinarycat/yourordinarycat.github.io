@@ -1,0 +1,10 @@
+@use "base";
+
+body {
+  background: linear-gradient(190deg, transparent -70%, rgb(255, 255, 255) 30%),
+    url("../hero-bg-light.jpg");
+  background: linear-gradient(190deg, transparent -70%, var(--background) 30%),
+    var(--hero-background);
+  background-position: top center;
+  background-repeat: no-repeat;
+}
