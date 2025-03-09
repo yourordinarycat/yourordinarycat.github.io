@@ -82,7 +82,7 @@ layout: compress
             <br>
 
             Source model: Open source -
-            <a href="https://github.com/{{ site.aka }}/Charmy">take a look!</a>
+            <a href="https://github.com/{{ site.aka | slugify }}/Charmy">take a look!</a>
           </p>
         </li>
 
@@ -98,7 +98,7 @@ layout: compress
             <br>
 
             Source model: Open source -
-            <a href="https://github.com/{{ site.aka }}/SimpleKit">take a look!</a>
+            <a href="https://github.com/{{ site.aka | slugify }}/SimpleKit">take a look!</a>
           </p>
         </li>
       </ul>
@@ -111,16 +111,16 @@ layout: compress
 
       <ul class="tcg bp-476">
         <li>
-          <h3>Matrix</h3>
-          <a class="tcg-caption" href="https://matrix.to/#/@imordinarycat:matrix.org">
-            matrix.to/#/@imordinarycat:matrix.org
+          <h3>Discord</h3>
+          <a class="tcg-caption" href="https://discord.com/users/1286300834144976898">
+            @{{ site.aka }}
           </a>
         </li>
 
         <li>
-          <h3>Telegram</h3>
-          <a class="tcg-caption" href="https://t.me/{{ site.aka }}">
-            t.me/{{ site.aka }}
+          <h3>Matrix</h3>
+          <a class="tcg-caption" href="https://matrix.to/#/@{{ site.aka | slugify }}:matrix.org">
+            @{{ site.aka }}:matrix.org
           </a>
         </li>
       </ul>
@@ -132,14 +132,14 @@ layout: compress
         <li>
           <h3>Bluesky</h3>
           <a class="tcg-caption" href="https://bsky.app/profile/{{ site.aka | slugify }}.bsky.social">
-            @{{ site.aka | slugify }}.bsky.social
+            @{{ site.aka }}.bsky.social
           </a>
         </li>
 
         <li>
           <h3>Tumblr</h3>
           <a class="tcg-caption" href="https://www.tumblr.com/{{ site.aka | slugify }}">
-            ☆ dreamscape ☆
+            @{{ site.aka }}
           </a>
         </li>
       </ul>
