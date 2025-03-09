@@ -1,0 +1,38 @@
+---
+layout: compress
+---
+
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: 'en-US' }}">
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="utf-8">
+  <title>{{ page.title }}</title>
+  <meta name="author" content="{{ site.author }}">
+  <link href="{{ '/assets/css/404.css' | relative_url }}" rel="stylesheet">
+</head>
+
+<body>
+  <main>
+    <article text-centeralign>
+      <h1>{{ page.title }}</h1>
+
+      <p>
+        <a href="{{ '/' | relative_url }}">
+          go to homepage
+        </a>
+      </p>
+    </article>
+  </main>
+
+  <footer>
+    <br>
+    <hr>
+    <br>
+
+    <p class="secondary wfsth" text-centeralign>Waiting for something to happen?</p>
+  </footer>
+</body>
+
+</html>
