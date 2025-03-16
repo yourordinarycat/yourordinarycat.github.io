@@ -26,8 +26,6 @@
     --secondary-background: rgb(240, 240, 240);
     --primary-foreground: rgba(0, 0, 0, 0.87);
     --secondary-foreground: rgba(0, 0, 0, 0.6);
-    --hover: rgba(0, 0, 0, 0.3);
-    --hover-foreground: var(--primary-foreground);
   }
 }
 
@@ -39,8 +37,6 @@
     --secondary-background: rgb(0, 0, 0);
     --primary-foreground: rgba(255, 255, 255, 0.87);
     --secondary-foreground: rgba(255, 255, 255, 0.6);
-    --hover-background: rgba(255, 255, 255, 0.3);
-    --hover-foreground: var(--primary-foreground);
   }
 }
 
@@ -139,36 +135,4 @@ hr {
   border-width: 1px 0 0 0;
   border-top: 1px solid rgba(0, 0, 0, 0.6);
   border-top: 1px solid var(--secondary-foreground);
-}
-
-.tcg {
-  display: grid;
-  grid-template-columns: 50% 50%;
-  gap: 12px;
-  list-style-type: none;
-  margin: 8px 0 16px 0;
-  padding: 0;
-}
-
-.tcg-description {
-  margin: 8px 0 0 0;
-}
-
-.tcg-caption {
-  color: rgba(0, 0, 0, 0.6);
-  color: var(--secondary-foreground);
-  font-size: 9pt;
-  margin: 4px 0 0 0;
-}
-
-@media screen and (max-width: 800px) {
-  .tcg.bp-800 {
-    grid-template-columns: 100%;
-  }
-}
-
-@media screen and (max-width: 476px) {
-  .tcg.bp-476 {
-    grid-template-columns: 100%;
-  }
 }
