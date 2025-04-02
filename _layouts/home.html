@@ -10,7 +10,7 @@ layout: compress
   <meta charset="utf-8">
   <title>{{ site.title }}</title>
   <meta name="author" content="{{ site.author }}">
-  <meta name="description" content="{{ site.short_author }}'s official website.">
+  <meta name="description" content="{{ site.aka }}'s official website.">
   <link href="{{ '/assets/css/home.jekyll.css' | relative_url }}" rel="stylesheet">
   <link rel="icon" type="image/png" href="/favicon-96x96.png" sizes="96x96">
   <link rel="icon" type="image/svg+xml" href="/favicon.svg">
@@ -25,7 +25,7 @@ layout: compress
       <h1>{{ page.title }}</h1>
       <p>
         I am {{ site.short_author }} (AKA {{ site.aka }}), creator of a tiny little blog,
-        <a href="https://{{ site.aka | slugify }}.github.io/dreamscape/">
+        <a href="https://{{ site.aka | slugify }}.com/dreamscape/">
           ☆ dreamscape ☆
         </a>
       </p>
@@ -136,8 +136,8 @@ layout: compress
       <ul class="tcg bp-476">
         <li>
           <h3>Bluesky</h3>
-          <a class="tcg-caption" href="https://bsky.app/profile/{{ site.aka | slugify }}.bsky.social">
-            @{{ site.aka }}.bsky.social
+          <a class="tcg-caption" href="https://bsky.app/profile/{{ site.aka | slugify }}.com">
+            @{{ site.aka }}.com
           </a>
         </li>
 
