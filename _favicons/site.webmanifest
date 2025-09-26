@@ -1,6 +1,6 @@
 {
-  "name": "YourOrdinaryCat",
-  "short_name": "YOC",
+  "name": "yourordinarycat",
+  "short_name": "yoc",
   "icons": [
     {
       "src": "/web-app-manifest-192x192.png",
